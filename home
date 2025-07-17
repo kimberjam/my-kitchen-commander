@@ -17,7 +17,7 @@
 <body class="bg-[#5F88A5] min-h-screen flex items-center justify-center p-4 sm:p-8">
     <div class="text-center max-w-4xl mx-auto">
         <!-- App Logo -->
-        <img src="http://googleusercontent.com/file_content/5" alt="My Kitchen Commander Logo - Wheat Stalks" class="mx-auto w-32 h-32 sm:w-48 sm:h-48 rounded-2xl shadow-lg mb-8">
+        <img src="'/Users/kimberlyvillalta/Desktop/My Kitchen Commander/Website/Wheat logo square.jpeg'" class="mx-auto w-32 h-32 sm:w-48 sm:h-48 rounded-2xl shadow-lg mb-8">
 
         <!-- Main Slogan -->
         <h1 class="text-[#EFDD91] text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-6">
