@@ -6,27 +6,28 @@
     <title>My Kitchen Commander</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts - Inter -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Removed Google Fonts - Inter as we are using a system font -->
     <style>
+        /* Changed font-family to Trebuchet MS, with fallbacks */
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
     </style>
 </head>
-<body class="bg-[#5F88A5] min-h-screen flex items-center justify-center p-4 sm:p-8">
+<body class="bg-white min-h-screen flex items-center justify-center p-4 sm:p-8">
     <div class="text-center max-w-4xl mx-auto">
         <!-- App Logo -->
-        <img src="'/Users/kimberlyvillalta/Desktop/My Kitchen Commander/Website/Wheat logo square.jpeg'" class="mx-auto w-32 h-32 sm:w-48 sm:h-48 rounded-2xl shadow-lg mb-8">
+        <!-- Note: The logo path was updated in your query, ensuring it points to your local file. -->
+        <img src="/Users/kimberlyvillalta/Desktop/My Kitchen Commander/Website/Logo/Wheat logo square.jpeg" alt="My Kitchen Commander Logo - Wheat Stalks" class="mx-auto w-32 h-32 sm:w-48 sm:h-48 rounded-2xl shadow-lg mb-8">
 
         <!-- Main Slogan -->
-        <h1 class="text-[#EFDD91] text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-6">
+        <h1 class="text-[#5F88A5] text-2xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-6">
             Your grocery inventory system that will be the ultimate game changer in the kitchen.
         </h1>
 
         <!-- Coming Soon Message -->
-        <p class="text-[#EFDD91] text-xl sm:text-2xl font-semibold opacity-90">
-            Coming soon.
+        <p class="text-[#5F88A5] text-xl sm:text-2xl font-semibold opacity-90">
+            Coming soon!
         </p>
     </div>
 </body>
